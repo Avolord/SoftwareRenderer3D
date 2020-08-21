@@ -17,11 +17,10 @@ TODO:
 
 int main()
 {
-	/*std::cout << "Path: ";
+	std::cout << "Path: ";
 	std::string path;
-	std::getline(std::cin, path);*/
+	std::getline(std::cin, path);
 
-	std::string path = "F:\\Downloads\\download (Custom).bmp";
 
 	sr::Bitmap bmp;
 	bmp.loadFromFile(path);
